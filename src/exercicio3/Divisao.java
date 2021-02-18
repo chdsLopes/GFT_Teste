@@ -13,7 +13,7 @@ public class Divisao extends Operacao{
 			System.out.println("Impossivel calcular");
 			return 0;
 		}else {
-			return this.getX() - this.getY();
+			return this.getX() / this.getY();
 		}
 	}
 
