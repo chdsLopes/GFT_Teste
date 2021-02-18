@@ -10,7 +10,8 @@ public class Divisao extends Operacao{
 	@Override
 	public double efetuarOperacao(double x, double y) {
 		if(y==0) {
-			return System.out.println("Impossivel calcular");
+			System.out.println("Impossivel calcular");
+			return 0;
 		}else {
 			return this.getX() - this.getY();
 		}

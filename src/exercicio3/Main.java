@@ -14,17 +14,17 @@ public class Main {
 		System.out.println("Insira o valor para Y: ");
 		double y = leitor.nextDouble();
 		
-		Operacao operacao = new Operacao(x, y);
+
 		
 		Soma soma = new Soma(x, y);
 		Multiplicacao multiplicacao = new Multiplicacao(x, y);
 		Divisao divisao = new Divisao(x, y);
 		Subtracao subtracacao = new Subtracao(x, y);
 		
-		System.out.println("Resultado Soma: "+soma);
-		System.out.println("Resultado multiplicação: "+multiplicacao);
-		System.out.println("Resultado divisão: "+divisao);
-		System.out.println("Resultado Subtração: "+subtracacao);
+		System.out.println("Resultado Soma: "+soma.efetuarOperacao(x, y));
+		System.out.println("Resultado multiplicação: "+multiplicacao.efetuarOperacao(x, y));
+		System.out.println("Resultado divisão: "+divisao.efetuarOperacao(x, y));
+		System.out.println("Resultado Subtração: "+subtracacao.efetuarOperacao(x, y));
 		
 		
 		
